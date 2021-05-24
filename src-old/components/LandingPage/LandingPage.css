@@ -1,0 +1,66 @@
+.container {
+  margin: 0px;
+  padding: 0px;
+}
+
+#coverContainer {
+  width: 100%;
+  height: 93vh;
+  margin: -30px 0px 0px 0px;
+  background-image: url('https://images.unsplash.com/photo-1534361960057-19889db9621e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#copyOne,
+#copyTwo {
+  color: whitesmoke;
+  font-family: 'Nanum Myeongjo', serif;
+  position: absolute;
+  z-index: 1;
+}
+
+#copyOne {
+  top: 240px;
+  left: 7%;
+  font-size: 2.5em;
+}
+
+#copyTwo {
+  top: 310px;
+  left: 20%;
+  font-size: 1.8em;
+  font-style: italic;
+}
+
+#infoContainer {
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  text-indent: 20px;
+  line-height: 1.4em;
+  position: absolute;
+  z-index: 1;
+  top: 365px;
+  left: 7%;
+  width: 500px;
+  text-align: justify;
+}
+
+#loginBtns {
+  position: absolute;
+  z-index: 1;
+  width: 500px;
+  top: 480px;
+  left: 7%;
+}
+
+#photocredit {
+  position: fixed;
+  z-index: 1;
+  right: 5px;
+  bottom: 5px;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 0.7em;
+}

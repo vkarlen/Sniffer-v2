@@ -1,0 +1,17 @@
+#detail-image {
+  max-width: 200px;
+  margin: auto;
+}
+
+#detail-container {
+  text-align: center;
+}
+
+#pet-select {
+  width: 100px;
+  height: 10px;
+}
+
+#detail-title {
+  margin: 0px;
+}

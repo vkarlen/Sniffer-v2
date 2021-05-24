@@ -160,7 +160,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				79E97692EAD954ACF8CE3AD7 /* [CP] Embed Pods Frameworks */,
 				4FDA250A86042A0824A2825C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -183,7 +182,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				8371E40C4F6EB7D2F5A01384 /* [CP] Embed Pods Frameworks */,
 				49557297493132AFEB11E0DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -341,40 +339,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sniffer_V2-Sniffer_V2Tests/Pods-Sniffer_V2-Sniffer_V2Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		79E97692EAD954ACF8CE3AD7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sniffer_V2-Sniffer_V2Tests/Pods-Sniffer_V2-Sniffer_V2Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sniffer_V2-Sniffer_V2Tests/Pods-Sniffer_V2-Sniffer_V2Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sniffer_V2-Sniffer_V2Tests/Pods-Sniffer_V2-Sniffer_V2Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8371E40C4F6EB7D2F5A01384 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sniffer_V2/Pods-Sniffer_V2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Sniffer_V2/Pods-Sniffer_V2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sniffer_V2/Pods-Sniffer_V2-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {

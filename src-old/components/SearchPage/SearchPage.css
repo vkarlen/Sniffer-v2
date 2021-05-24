@@ -1,0 +1,22 @@
+.searchImg {
+  width: 90%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.searchResult {
+  padding: 15px;
+  text-align: center;
+  height: 320px;
+}
+
+#query-select {
+  width: 120px;
+}
+
+#search-container {
+  position: sticky;
+  top: 5px;
+  padding: 15px 30px;
+  margin: 15px auto;
+}
